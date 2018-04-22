@@ -76,7 +76,17 @@
 		</div>
 	</div>
 </div>
-<div class="portfolio-showcase-1 slide"></div>
+<div class="portfolio-showcase-1 slide">
+	<div class="prev n"><img src="/images/slider/slider-icon/back (1).png" alt=""></div>
+	<div class="slider">
+		<div class="img curry"></div>
+		<div class="img"></div>
+		<div class="img"></div>
+		<div class="img"></div>
+	</div>
+	<div class="next n"><img src="/images/slider/slider-icon/next (1).png" alt=""></div>
+	<div class="left-content"></div>
+</div>
 <div class="portfolio-showcase-2 slide"></div>
 <div class="portfolio-showcase-3 slide"></div>
 <div class="contact slide"></div>
