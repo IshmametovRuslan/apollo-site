@@ -283,27 +283,21 @@
 					background-size: cover;
 				}
 			}
-		}
-		.prev {
-			position: absolute;
-			top: 50%;
-			left: 5%;
-		}
-		.next {
-			position: absolute;
-			top: 50%;
-			right: 5%;
-		}
-		.n {
-			display: inline;
-			z-index: 999;
 
-			&:hover {
+		}
+
+		#n {
+			//display: inline;
+			z-index: 999;
+			opacity: 1;
+			visibility: visible;
+
+			/*&:hover {
 				cursor: pointer;
 			}
 			img {
-				background-color: white;
-			}
+				background-color: transparent;
+			}*/
 		}
 		.left-content {
 			width: 40%;
@@ -313,6 +307,109 @@
 			background-size: contain;
 			filter: invert(100%) opacity(0.2);
 			top: 0;
+		}
+
+	}
+	.portfolio-showcase-2 {
+
+		.portfolio-showcase-2-left {
+			width: 40%;
+			height: 100%;
+			background-image: url("/images/L.png");
+			background-position: center;
+			background-repeat: no-repeat;
+			display: flex;
+			float: left;
+			.portfolio-showcase-2-text {
+				width: 100%;
+				margin: auto;
+				padding: 0 10px 0 100px;
+				line-height: 25px;
+				.head {
+					display: inline-block;
+					font-size: 40px;
+					span {
+						font-weight: bold;
+					}
+				}
+				p {
+					margin: 20px 0;
+
+				}
+			}
+		}
+		.portfolio-showcase-2-right {
+			width: 60%;
+			height: 100%;
+			display: flex;
+			.portfolio-showcase-2-right-img {
+				margin: auto;
+				width: 90%;
+				height: 60%;
+				background-image: url("/images/IMG_3a5b534fc1b5.jpg");
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: contain;
+			}
+		}
+	}
+	.portfolio-showcase-3 {
+		position: relative;
+		.left-content {
+			width: 40%;
+			height: 100%;
+			position: absolute;
+			background: url("/images/L.png") center no-repeat;
+			background-size: contain;
+			top: 0;
+			z-index: 999;
+		}
+	}
+	.contact {
+
+		.contact-text {
+			padding: 103px 265px 0;
+			text-align: center;
+
+			.head {
+				display: inline-block;
+				font-size: 40px;
+				span {
+					font-weight: bold;
+				}
+			}
+			p {
+				margin: 20px 0;
+
+			}
+		}
+		.contact-form {
+			width: 40%;
+			margin: 99px auto;
+			.name, .email {
+				width: 48%;
+				height: 35px;
+				border: 3px solid #575757;
+			}
+			.name {
+				float: right;
+			}
+			.email {
+				float: left;
+			}
+			.message {
+				width: 100%;
+				height: 100px;
+				margin: 20px 0;
+				border: 3px solid #575757;
+			}
+			.send {
+				width: 100%;
+				height: 35px;
+				font-size: 20px;
+				color: #fff;
+				background: #000;
+			}
 		}
 
 	}
