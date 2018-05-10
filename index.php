@@ -222,6 +222,7 @@
 	</div>
 </div>
 <div class="contact slide">
+	<div class="left-content"></div>
 	<div class="contact-text">
 		<div class="head"><span>Say</span> Hello</div>
 		<div class="text">
